@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    background-color: blueviolet;
+}
+.container{
+    max-width: 500px;
+    background-color: cornsilk;
+    margin:  20px auto;
+    padding: 20px 30px;
+    border-radius: 13px;
+}
+.container .header{
+    margin-bottom: 10px;
+}
+.tasks{
+    list-style: none;
+}
+.done-button{
+    margin-right: 10px;
+    text-decoration: none;
+    color: darkmagenta;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d9dfe1;
+    opacity: 0.4;
+    padding: 3px 6px;
+    border-bottom:1px dashed ;
+}
+.task .done{
+text-decoration: line-through;
+}
+li{
+    padding-bottom: 20px;
+    border-bottom:1px dashed #cccccc ;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.input:focus{
+    outline: none;
+}
+.submit{
+    padding: 10px 20px;
+    background-color:blueviolet;
+    margin-top: 10px;
+    border-radius: 5px;
+    color:white ;
+    font-size: 18px;
+}
